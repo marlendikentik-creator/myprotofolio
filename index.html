@@ -1,1 +1,147 @@
+<!doctype html>
 
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio — Rendi Juan Fahu Rosy</title>
+  <meta name="description" content="Portofolio untuk melamar pekerjaan — Rendi Juan Fahu Rosy, siswa SMK." />
+  <style>
+    :root{
+      --accent:#0f766e;
+      --bg:#f7faf9;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.6);
+      --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,var(--bg), #eef2f3); margin:0; color:#0f172a}
+    .container{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:18px;background:linear-gradient(135deg,var(--accent),#2563eb);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:30px;flex:0 0 120px}
+    .meta h1{margin:0;font-size:28px}
+    .meta p{margin:6px 0;color:var(--muted)}
+    .contact{margin-top:8px;display:flex;gap:12px;flex-wrap:wrap}
+    .chip{background:var(--card);padding:8px 12px;border-radius:999px;box-shadow:0 1px 2px rgba(2,6,23,0.06);font-size:14px}main{display:grid;grid-template-columns:1fr 360px;gap:24px;margin-top:24px}
+.card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(12,18,20,0.06)}
+
+.section + .section{margin-top:14px}
+h2{font-size:16px;margin:0 0 12px 0}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skill{background:var(--glass);padding:8px 10px;border-radius:8px;font-size:13px}
+
+.projects .project{border-radius:10px;padding:12px;background:linear-gradient(180deg, rgba(15,118,110,0.03), rgba(37,99,235,0.02));margin-bottom:12px}
+.project h3{margin:0 0 8px 0;font-size:15px}
+.project p{margin:0;color:var(--muted);font-size:14px}
+
+pre{background:#0b1220;color:#e6eef6;padding:12px;border-radius:8px;overflow:auto;font-family:var(--mono);font-size:13px}
+
+footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+/* Responsive */
+@media (max-width:900px){main{grid-template-columns:1fr;}.avatar{width:88px;height:88px;font-size:22px}}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">RJ</div>
+      <div class="meta">
+        <h1>Rendi Juan Fahu Rosy</h1>
+        <p>Siswa SMK — Calon Teknisi / Programmer / IT Support</p>
+        <div class="contact">
+          <div class="chip">📧 rendi.email@example.com</div>
+          <div class="chip">📱 +62 812-3456-7890</div>
+          <div class="chip">📍 Kota Anda, Indonesia</div>
+        </div>
+      </div>
+    </header><main>
+  <section>
+    <div class="card section">
+      <h2>Ringkasan</h2>
+      <p>Saya Rendi, siswa SMK jurusan Teknik Komputer dan Jaringan dengan pengalaman praktis dalam instalasi jaringan, pemrograman dasar, dan troubleshooting perangkat keras. Saya mencari posisi magang atau pekerjaan entry-level di bidang IT untuk menerapkan keterampilan teknis dan belajar lebih dalam.</p>
+    </div>
+
+    <div class="card section">
+      <h2>Keahlian</h2>
+      <div class="skills">
+        <div class="skill">HTML &amp; CSS</div>
+        <div class="skill">JavaScript dasar</div>
+        <div class="skill">Pengaturan jaringan (LAN/WLAN)</div>
+        <div class="skill">Troubleshooting HW</div>
+        <div class="skill">Git &amp; GitHub</div>
+        <div class="skill">Microsoft Office</div>
+      </div>
+    </div>
+
+    <div class="card section projects">
+      <h2>Proyek</h2>
+
+      <div class="project">
+        <h3>Website Portofolio (ini)</h3>
+        <p>Halaman portofolio sederhana untuk melamar pekerjaan; menggunakan HTML &amp; CSS responsif.</p>
+        <details>
+          <summary>Kode HTML (index.html) - contoh singkat</summary>
+          <pre><code>&lt;!doctype html&gt;
+
+<html> <head><meta charset="utf-8"/></head> <body>Halo dunia</body> </html></code></pre> </details> </div>
+
+<div class="project">
+        <h3>Program: index.js (contoh)</h3>
+        <p>Contoh program JavaScript sederhana — Anda bisa mengganti ini dengan program yang ingin ditampilkan.</p>
+        <pre><code>// file: index.js
+
+function greet(name) { return Halo, ${name}!; }
+
+console.log(greet('Rendi')); </code></pre> </div>
+
+<div class="project">
+        <h3>Instalasi Jaringan Mini</h3>
+        <p>Rancangan jaringan untuk lab komputer SMK: switch, router, dan segmentasi VLAN sederhana.</p>
+      </div>
+    </div>
+
+    <div class="card section">
+      <h2>Pendidikan</h2>
+      <p>SMK — Jurusan Teknik Komputer dan Jaringan (Tahun masuk — Sekarang). Sertifikat pelatihan: Dasar Jaringan, Pemrograman Web (jika ada, cantumkan).</p>
+    </div>
+
+    <div class="card section">
+      <h2>Pengalaman Kerja / Magang</h2>
+      <p>Magang / proyek sekolah: instalasi Wi-Fi untuk lab komputer, perbaikan PC, dukungan teknis untuk acara sekolah.</p>
+    </div>
+
+  </section>
+
+  <aside>
+    <div class="card section">
+      <h2>Tautan &amp; Lampiran</h2>
+      <p style="color:var(--muted);font-size:14px">Lampirkan CV PDF, sertifikat, atau tautan GitHub/GitLab di sini saat mengunggah ke portal lamaran.</p>
+      <div style="margin-top:10px;display:flex;flex-direction:column;gap:8px">
+        <div class="chip">📁 CV: cv_rendi.pdf (unggah)</div>
+        <div class="chip">🔗 GitHub: github.com/username</div>
+        <div class="chip">🔗 LinkedIn: linkedin.com/in/username</div>
+      </div>
+    </div>
+
+    <div class="card section">
+      <h2>Referensi Singkat</h2>
+      <p style="margin:0;color:var(--muted)">Nama Guru / Pembimbing — Posisi — Kontak</p>
+    </div>
+
+    <div class="card section">
+      <h2>Tata Letak & Instruksi</h2>
+      <p style="color:var(--muted);font-size:14px;margin:0">Untuk menggunakan: simpan file ini sebagai <strong>index.html</strong>. Ubah teks (nama, kontak, proyek) sesuai kebutuhan. Jika ingin file CSS terpisah atau versi PDF untuk lamaran, beri tahu saya.</p>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  Dibuat oleh Rendi Juan Fahu Rosy — Portofolio sederhana untuk melamar pekerjaan.
+</footer>
+
+  </div>
+</body>
+                                                                                           </html>
